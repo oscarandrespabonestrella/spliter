@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tyle-container{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin-top: 2em;
+}
+
+
+.tyle{
+  background: #fff;
+  color: #000;
+  padding: 1em 0;
+  margin-right: 2px;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.form-container{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+.form-container .field{
+  margin: 4px 0;  
+}
+
+.form-container .field input{
+  width: 80%;
+  border-color: ;
+}
+
+
+.form-container button{ 
+  width: 100%;
+  background: #3e779d;
+  padding: 11px 18px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  color: white;
+  font-size: 16px;
+    border:none;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background: #28597a;
+  color: #ffffff;
+}
